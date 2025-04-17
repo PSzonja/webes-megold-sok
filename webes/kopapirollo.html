@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="cím">
+        <h1>Kő, papír, olló</h1>
+    </div>
+    <p class="button">
+        <button onClick="window.location.reload();">Újrakezdés</button>
+    </p>
+
+    <h2 id="eredmeny">Eredmény: </h2>
+    <div class="eredmenyek">
+        <p id="győz">Győzelmek: </p>
+        <p id="vesz">Vereségek: </p>
+        <p id="dönt">Döntetlenek: </p>
+    </div>
+
+    <div class="képek">
+        <img onclick=picctures(ko) src="ko.jpg" id="ko">
+        <img onclick=picctures(papir) src="papir.jpg" id="papir">
+        <img onclick=picctures(ollo) src="ollo.jpg" id="ollo">
+    </div>
+    <div class="jatekosok">
+        <h1>Ellenség: </h1>
+        <p> <img id="bot"> </p>
+    </div>
+
+</body>
+
+</html>
